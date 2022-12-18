@@ -57,7 +57,7 @@
 }
 
 .home__img {
-  background: url(../../assets/photu.jpg);
+  background: url(../../assets/photu1.jpg);
   background-repeat: repeat;
   background-position: center;
   background-size: contain;
@@ -74,7 +74,7 @@
     border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
   }
   50% {
-    border-radius: 30% 60% 70% 40%/50% 40% 30% 60%;
+    border-radius: 30% 60% 70% 40%/50% 40% 50% 60%;
   }
   100% {
     border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
