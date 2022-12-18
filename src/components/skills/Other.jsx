@@ -7,25 +7,29 @@ const Other = () => {
       <div className="skills__box">
         <div className="skills__group">
           <div className="skills__data">
-            <i class="bx bx-badge-check"></i>
-
+            <i class="bx bxl-python"></i>
             <div>
               <h3 className="skills__name">Python</h3>
               <span className="skills__level">Intermediate</span>
             </div>
           </div>
+          <div className="skills__data">
+            <i class="bx bxl-c-plus-plus"></i>
+            <div>
+              <h3 className="skills__name">C/C++</h3>
+              <span className="skills__level">Intermediate</span>
+            </div>
+          </div>
 
           <div className="skills__data">
-            <i class="bx bx-badge-check"></i>
-
+            <i class="bx bxl-mongodb"></i>
             <div>
-              <h3 className="skills__name">MySQL</h3>
+              <h3 className="skills__name">SQL/MySQL</h3>
               <span className="skills__level">Intermediate</span>
             </div>
           </div>
           <div className="skills__data">
-            <i class="bx bx-badge-check"></i>
-
+            <i class="bx bxl-aws"></i>
             <div>
               <h3 className="skills__name">AWS</h3>
               <span className="skills__level">Basic</span>
@@ -35,24 +39,28 @@ const Other = () => {
 
         <div className="skills__group">
           <div className="skills__data">
-            <i class="bx bx-badge-check"></i>
-
+            <i class="bx bxl-javascript"></i>
+            <div>
+              <h3 className="skills__name">JavaScript</h3>
+              <span className="skills__level">Basic</span>
+            </div>
+          </div>
+          <div className="skills__data">
+            <i class="bx bxl-drupal"></i>
             <div>
               <h3 className="skills__name">Drupal</h3>
               <span className="skills__level">Basic</span>
             </div>
           </div>
           <div className="skills__data">
-            <i class="bx bx-badge-check"></i>
-
+            <i class="bx bxl-wordpress"></i>
             <div>
               <h3 className="skills__name">Wordpress</h3>
               <span className="skills__level">Basic</span>
             </div>
           </div>
           <div className="skills__data">
-            <i class="bx bx-badge-check"></i>
-
+            <i class="bx bxs-virus"></i>
             <div>
               <h3 className="skills__name">Shell Scripting</h3>
               <span className="skills__level">Intermediate</span>
