@@ -57,10 +57,10 @@ const Data = () => {
       </h1>
       <h3 className="home__subtitle">Front-End Developer</h3>
       <p className="home__description">
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minus et alias
-        sapiente, consectetur cumque ab voluptate optio ipsam minima fugiat
-        nostrum porro natus dolores soluta commodi quidem debitis non explicabo?
+        Computer & Communication Senior Year Undergrad, Manipal University
+        Jaipur
       </p>
+
       <a href="#contact" className="button button--flex">
         Say Hello!
         <svg

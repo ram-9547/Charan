@@ -16,10 +16,12 @@ const About = () => {
         <div className="about__data">
           <Info />
           <p className="about__description">
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illum
-            eaque quasi aperiam quaerat asperiores autem neque blanditiis
-            reiciendis. Corrupti a voluptatum vel odio quia dolores nemo totam
-            ullam consequatur nostrum?
+            A Frontend Developer wannabe Fullstack based in Meerut, India. I'm
+            passionate about web development and love to code beautiful and
+            attractive things, always ready to challenge myself and explore new
+            areas of work. <br></br>
+            <br></br>
+            Currently working as a frontend developer intern at Lens.
           </p>
 
           <a href={CV} download="" className="button button--flex">

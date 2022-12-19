@@ -137,7 +137,7 @@ const Qualification = () => {
                 </h3>
                 <span className="qualification__subtitle">OpenSense Labs</span>
                 <div className="qualification__calander">
-                  <i className="uil uil-calendar-alt"></i>Jan 2022 - Apr 2022
+                  <i className="uil uil-calendar-alt"></i> Jan 2022 - Apr 2022
                 </div>
               </div>
             </div>
