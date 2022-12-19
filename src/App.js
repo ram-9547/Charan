@@ -5,8 +5,8 @@ import Footer from "./components/footer/Footer";
 import Header from "./components/header/Header";
 import Home from "./components/home/Home";
 import Qualification from "./components/qualification/Qualification";
+import Scrollup from "./components/scrollup/Scrollup";
 import Skills from "./components/skills/Skills";
-// import Home from "./components/header/home/Home";
 
 function App() {
   return (
@@ -19,8 +19,10 @@ function App() {
         <Skills />
         <Qualification />
         <Contact />
-        <Footer />
       </main>
+
+      <Footer />
+      <Scrollup />
     </>
   );
 }
