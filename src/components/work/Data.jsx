@@ -36,7 +36,7 @@ export const projectsData = [
   {
     id: 5,
     image: Work5,
-    title: "Wodo App",
+    title: "Todo App",
     category: "app",
     link: "https://github.com/prathamrohatgi26/quillbotassignment",
   },
