@@ -3,6 +3,7 @@ import Work2 from "../../assets/work2.jpg";
 import Work3 from "../../assets/work3.jpg";
 import Work4 from "../../assets/work4.jpg";
 import Work5 from "../../assets/work5.jpg";
+import Work6 from "../../assets/work6.jpg";
 
 export const projectsData = [
   {
@@ -39,6 +40,13 @@ export const projectsData = [
     title: "Todo App",
     category: "app",
     link: "https://github.com/prathamrohatgi26/quillbotassignment",
+  },
+  {
+    id: 6,
+    image: Work6,
+    title: "Old Portfolio",
+    category: "web",
+    link: "https://prathamrohatgi26.github.io/cv/",
   },
 ];
 
