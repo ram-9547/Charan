@@ -10,8 +10,8 @@ const Qualification = () => {
   };
 
   return (
-    <section className="qualification section">
-      <h2 className="section__title">Qualifation</h2>
+    <section className="qualification section" id="Qualification">
+      <h2 className="section__title">Qualification</h2>
       <span className="section__subtitle">My Journey</span>
 
       <div className="qualification__container container">
@@ -50,12 +50,12 @@ const Qualification = () => {
           >
             <div className="qualification__data">
               <div>
-                <h3 className="qualification__title">B.Tech (CCE)</h3>
+                <h3 className="qualification__title">B.Tech (CSE)</h3>
                 <span className="qualification__subtitle">
-                  Manipal University Jaipur
+                  National Institute of Technology, Silchar
                 </span>
                 <div className="qualification__calander">
-                  <i className="uil uil-calendar-alt"></i> 2019 - Present
+                  <i className="uil uil-calendar-alt"></i> 2020 - Present
                 </div>
               </div>
 
@@ -73,9 +73,9 @@ const Qualification = () => {
                 <span className="qualification__line"></span>
               </div>
               <div>
-                <h3 className="qualification__title">12th (PCM+IP)</h3>
+                <h3 className="qualification__title">12th (BIEAP)</h3>
                 <span className="qualification__subtitle">
-                  Dayawati Modi Academy, Meerut
+                  Sasi Junior College, Velivennu
                 </span>
                 <div className="qualification__calander">
                   <i className="uil uil-calendar-alt"></i> 2018 - 2019
@@ -87,7 +87,7 @@ const Qualification = () => {
               <div>
                 <h3 className="qualification__title">10th CBSE</h3>
                 <span className="qualification__subtitle">
-                  Dayawati Modi Academy, Meerut
+                  Sasi EM School, Nallajarla
                 </span>
                 <div className="qualification__calander">
                   <i className="uil uil-calendar-alt"></i> 2016 - 2017
@@ -112,45 +112,11 @@ const Qualification = () => {
                 <h3 className="qualification__title">
                   Frontend Developer Intern
                 </h3>
-                <span className="qualification__subtitle">Lens</span>
+                <span className="qualification__subtitle">NIT SILCHAR</span>
                 <div className="qualification__calander">
-                  <i className="uil uil-calendar-alt"></i> Nov 2022 - Present
+                  <i className="uil uil-calendar-alt"></i> May 2023 - Present
                 </div>
               </div>
-
-              <div>
-                <span className="qualification__rounder"></span>
-                <span className="qualification__line"></span>
-              </div>
-            </div>
-
-            <div className="qualification__data">
-              <div></div>
-
-              <div>
-                <span className="qualification__rounder"></span>
-                <span className="qualification__line"></span>
-              </div>
-              <div>
-                <h3 className="qualification__title">
-                  Software Developer Intern
-                </h3>
-                <span className="qualification__subtitle">OpenSense Labs</span>
-                <div className="qualification__calander">
-                  <i className="uil uil-calendar-alt"></i> Jan 2022 - Apr 2022
-                </div>
-              </div>
-            </div>
-
-            <div className="qualification__data">
-              <div>
-                <h3 className="qualification__title">Cloud Intern, AWS</h3>
-                <span className="qualification__subtitle">Siemens</span>
-                <div className="qualification__calander">
-                  <i className="uil uil-calendar-alt"></i> July 2021 - Oct 2021
-                </div>
-              </div>
-
               <div>
                 <span className="qualification__rounder"></span>
                 <span className="qualification__line"></span>

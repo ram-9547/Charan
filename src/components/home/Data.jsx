@@ -4,7 +4,7 @@ const Data = () => {
   return (
     <div className="home__data">
       <h1 className="home__title">
-        Pratham Rohatgi
+        Hemanth Akula
         <svg
           width="36"
           height="36"
@@ -55,10 +55,9 @@ const Data = () => {
           ></path>
         </svg>
       </h1>
-      <h3 className="home__subtitle">Front-End Developer</h3>
+      <h3 className="home__subtitle">MERN Stack Developer</h3>
       <p className="home__description">
-        Computer & Communication Senior Year Undergrad, Manipal University
-        Jaipur
+        Computer Science and Engineering final Year Undergrad, NIT SILCHAR.
       </p>
 
       <a href="#contact" className="button button--flex">

@@ -8,24 +8,27 @@ import Qualification from "./components/qualification/Qualification";
 import Scrollup from "./components/scrollup/Scrollup";
 import Skills from "./components/skills/Skills";
 import Work from "./components/work/Work";
+import { Routes, Route } from "react-router-dom";
+
 
 function App() {
   return (
-    <>
+    <Routes>
+      <Route path="/Portfolio" element={<Home />} />
       <Header />
 
       <main className="main">
         <Home />
         <About />
-        <Skills />
         <Qualification />
+        <Skills />
         <Work />
         <Contact />
       </main>
 
       <Footer />
       <Scrollup />
-    </>
+    </Routes>
   );
 }
 

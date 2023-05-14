@@ -3,11 +3,6 @@ import "./header.css";
 import { useState } from "react";
 
 const Header = () => {
-  window.addEventListener("scroll", function () {
-    const header = document.querySelector(".header");
-    if (this.scrollY >= 80) header.classList.add("scroll-header");
-    else header.classList.remove("scroll-header");
-  });
   const [Toggle, setToggle] = useState(false);
   const [activeNav, setActiveNav] = useState("#home");
 
@@ -15,7 +10,7 @@ const Header = () => {
     <header className="header">
       <nav className="nav container">
         <a href="index.html" className="nav__logo">
-          &lt; Pratham /&gt;
+          &lt; Hemanth /&gt;
         </a>
         <div className={Toggle ? "nav__menu show-menu" : "nav__menu"}>
           <ul className="nav__list grid">
@@ -45,6 +40,19 @@ const Header = () => {
             </li>
             <li className="nav__item">
               <a
+                href="#Qualification"
+                onClick={() => setActiveNav("#Qualification")}
+                className={
+                  activeNav === "#Qualification"
+                    ? "nav__link active-link"
+                    : "nav__link "
+                }
+              >
+                <i className="uil uil-user nav__icon"></i>Qualification
+              </a>
+            </li>
+            <li className="nav__item">
+              <a
                 href="#skills"
                 onClick={() => setActiveNav("#skills")}
                 className={
@@ -66,7 +74,7 @@ const Header = () => {
                     : "nav__link "
                 }
               >
-                <i className="uil uil-scenery nav__icon"></i>Portfolio
+                <i className="uil uil-scenery nav__icon"></i>Projects
               </a>
             </li>
             <li className="nav__item">

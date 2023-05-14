@@ -5,7 +5,6 @@ const Frontend = () => {
     <div className="skills__content">
       <h3 className="skills__title">
         Frontend <br />
-        <span className="imp">!important</span>
       </h3>
       <div className="skills__box">
         <div className="skills__group">
@@ -24,13 +23,6 @@ const Frontend = () => {
             </div>
           </div>
           <div className="skills__data">
-            <i class="bx bxl-sass"></i>
-            <div>
-              <h3 className="skills__name">SASS</h3>
-              <span className="skills__level">Advance</span>
-            </div>
-          </div>
-          <div className="skills__data">
             <i class="bx bxl-javascript"></i>
             <div>
               <h3 className="skills__name">JavaScript</h3>
@@ -41,9 +33,16 @@ const Frontend = () => {
 
         <div className="skills__group">
           <div className="skills__data">
-            <i class="bx bxl-bootstrap"></i>
+            <i class="bx bxl-react"></i>
             <div>
-              <h3 className="skills__name">Bootstrap</h3>
+              <h3 className="skills__name">ReactJs</h3>
+              <span className="skills__level">Intermediate</span>
+            </div>
+          </div>
+          <div className="skills__data">
+            <i class='bx bxl-redux'></i>
+            <div>
+              <h3 className="skills__name">Redux</h3>
               <span className="skills__level">Intermediate</span>
             </div>
           </div>
@@ -51,20 +50,6 @@ const Frontend = () => {
             <i class="bx bxl-git"></i>
             <div>
               <h3 className="skills__name">Git</h3>
-              <span className="skills__level">Intermediate</span>
-            </div>
-          </div>
-          <div className="skills__data">
-            <i class="bx bxl-react"></i>
-            <div>
-              <h3 className="skills__name">React Js</h3>
-              <span className="skills__level">Intermediate</span>
-            </div>
-          </div>
-          <div className="skills__data">
-            <i class="bx bxs-file-js"></i>
-            <div>
-              <h3 className="skills__name">Next Js</h3>
               <span className="skills__level">Intermediate</span>
             </div>
           </div>

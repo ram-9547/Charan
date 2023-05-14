@@ -16,18 +16,15 @@ const About = () => {
         <div className="about__data">
           <Info />
           <p className="about__description">
-            A Frontend Developer wannabe Fullstack based in Meerut, India. I'm
-            passionate about web development and love to code beautiful and
-            attractive things, always ready to challenge myself and explore new
-            areas of work. <br></br>
+            A MERN Stack Developer based in Silchar, India. As a diligent, approachable and empathetic person, passionate about my work and learning new things and excited to
+            prove my technical and problem-solving skills for my self-growth as well as for the growth of the community. <br></br>
             <br></br>
-            Currently working as a frontend developer intern at Lens.
           </p>
 
           <a href={CV} download="" className="button button--flex">
             Download CV
             <svg
-              class="button__icon"
+              className="button__icon"
               xmlns="http://www.w3.org/2000/svg"
               width="24"
               height="24"

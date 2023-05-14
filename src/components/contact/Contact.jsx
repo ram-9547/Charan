@@ -1,6 +1,8 @@
 import React, { useRef } from "react";
 import emailjs from "@emailjs/browser";
 import "./contact.css";
+import toast, {Toaster} from "react-hot-toast";
+
 
 const Contact = () => {
   const form = useRef();
@@ -8,16 +10,27 @@ const Contact = () => {
   const sendEmail = (e) => {
     e.preventDefault();
 
-    emailjs.sendForm(
-      "service_j26vlkz",
-      "template_l2930ve",
-      form.current,
-      "T_3d3YW4KzGnJ_fr4"
-    );
-    e.target.reset();
+    emailjs
+      .sendForm(
+      'service_9q7wj0l', 'template_5y9ll2e', form.current, 'vsyaDSrp4DaDOSLjt'
+      )
+      .then(
+        (result) => {
+          console.log(result.text);
+          // Clear all input field values
+          form.current.reset();
+          // Success toast message
+          toast.success("Email send Successfully");
+        },
+        (error) => {
+          console.log(error.text);
+          toast.error(error.text);
+        }
+      );
   };
   return (
     <section className="contact section" id="contact">
+      <Toaster />
       <h2 className="section__title">Get in Touch</h2>
       <span className="section__subtitle">Contact me</span>
 
@@ -30,7 +43,7 @@ const Contact = () => {
 
               <h3 className="contact__card-title">Email</h3>
               <span className="contact__card-data">
-                prathamrohatgi@gmail.com
+                akulahemanth307@gmail.com
               </span>
             </div>
 
@@ -38,14 +51,14 @@ const Contact = () => {
               <i className="bx bxl-whatsapp contact__card-icon"></i>
 
               <h3 className="contact__card-title">Whatsapp</h3>
-              <span className="contact__card-data">+91 8126005059</span>
+              <span className="contact__card-data">+91 9100876163</span>
             </div>
 
             <div className="contact__card">
               <i className="bx bxl-discord-alt contact__card-icon"></i>
 
               <h3 className="contact__card-title">Discord</h3>
-              <span className="contact__card-data">D4RKID0#7553</span>
+              <span className="contact__card-data">BEAST_307#1558</span>
             </div>
           </div>
         </div>
@@ -65,6 +78,7 @@ const Contact = () => {
                 name="name"
                 className="contact__form-input"
                 placeholder="Insert your Name"
+                required
               />
             </div>
             <div className="contact__form-div">
@@ -72,8 +86,10 @@ const Contact = () => {
               <input
                 type="email"
                 name="email"
+                pattern="[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{1,63}$"
                 className="contact__form-input"
                 placeholder="Insert your Email"
+                required
               />
             </div>
             <div className="contact__form-div contact__form-area">
@@ -84,12 +100,13 @@ const Contact = () => {
                 rows="10"
                 className="contact__form-input"
                 placeholder="Insert your Message"
+                required
               ></textarea>
             </div>
             <button href="#contact" className="button button--flex">
               Send Message
               <svg
-                class="button__icon"
+                className="button__icon"
                 xmlns="http://www.w3.org/2000/svg"
                 width="24"
                 height="24"

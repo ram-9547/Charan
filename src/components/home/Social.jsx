@@ -1,28 +1,31 @@
 import React from "react";
+import {SiCodeforces} from 'react-icons/si'
+import {AiOutlineGithub} from 'react-icons/ai'
+import {AiFillLinkedin} from 'react-icons/ai'
 
 const Social = () => {
   return (
     <div className="home__social">
       <a
-        href="https://www.instagram.com/pratham_rohatgi/"
+        href="https://www.linkedin.com/in/hemanth-akula-902216221/"
         className="home__social-icon"
         target="_blank"
       >
-        <i class="uil uil-instagram"></i>
+        <AiFillLinkedin />
       </a>
       <a
-        href="https://www.linkedin.com/in/pratham-rohatgi26/"
+        href="https://github.com/hemanth307"
         className="home__social-icon"
         target="_blank"
       >
-        <i class="uil uil-linkedin-alt"></i>
+        <AiOutlineGithub />
       </a>
       <a
-        href="https://github.com/prathamrohatgi26"
+        href="https://codeforces.com/profile/Beast_307"
         className="home__social-icon"
         target="_blank"
       >
-        <i class="uil uil-github-alt"></i>
+        <SiCodeforces />
       </a>
     </div>
   );

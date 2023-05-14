@@ -39,8 +39,8 @@
 }
 
 .contact__card-data {
-  display: block;
-  margin-bottom: var(--mb-0-25);
+  display: block !important;
+  margin-bottom: var(--mb-0-25) !important;
 }
 
 .contact__form {
