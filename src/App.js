@@ -13,8 +13,7 @@ import { Routes, Route } from "react-router-dom";
 
 function App() {
   return (
-    <Routes>
-      <Route path="/Portfolio" element={<Home />} />
+    <>
       <Header />
 
       <main className="main">
@@ -28,8 +27,9 @@ function App() {
 
       <Footer />
       <Scrollup />
-    </Routes>
+      </>
   );
+
 }
 
 export default App;
