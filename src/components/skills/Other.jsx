@@ -1,5 +1,7 @@
 import React from "react";
 import { SiThealgorithms } from 'react-icons/si';
+import { TbBrandNextjs } from 'react-icons/tb';
+import { AiOutlineConsoleSql } from 'react-icons/ai';
 
 
 const Other = () => {
@@ -29,9 +31,23 @@ const Other = () => {
               <span className="skills__level">Intermediate</span>
             </div>
           </div>
+          <div className="skills__data">
+            <AiOutlineConsoleSql />
+            <div>
+              <h3 className="skills__name">SQL</h3>
+              <span className="skills__level">Intermediate</span>
+            </div>
+          </div>
         </div>
 
         <div className="skills__group">
+          <div className="skills__data">
+            <TbBrandNextjs />
+            <div>
+              <h3 className="skills__name">NextJs</h3>
+              <span className="skills__level">Intermediate</span>
+            </div>
+          </div>
           <div className="skills__data">
             <i class="bx bxl-javascript"></i>
             <div>

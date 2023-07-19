@@ -1,4 +1,6 @@
 import React from "react";
+import { SiMui } from 'react-icons/si';
+
 
 const Frontend = () => {
   return (
@@ -16,12 +18,30 @@ const Frontend = () => {
             </div>
           </div>
           <div className="skills__data">
-            <i class="bx bxl-css3"></i>
+            <SiMui />
             <div>
-              <h3 className="skills__name">CSS</h3>
+              <h3 className="skills__name">Material - UI</h3>
               <span className="skills__level">Advance</span>
             </div>
           </div>
+          <div className="skills__data">
+            {/* <i class="bx bxl-css3"></i> */}
+              <i class='bx bxl-tailwind-css'></i>
+            <div>
+              <h3 className="skills__name">Tailwind CSS</h3>
+              <span className="skills__level">Advance</span>
+            </div>
+          </div>
+          <div className="skills__data">
+            <i class='bx bxl-bootstrap' ></i>
+            <div>
+              <h3 className="skills__name">Bootstrap</h3>
+              <span className="skills__level">Intermediate</span>
+            </div>
+          </div>
+        </div>
+
+        <div className="skills__group">
           <div className="skills__data">
             <i class="bx bxl-javascript"></i>
             <div>
@@ -29,9 +49,6 @@ const Frontend = () => {
               <span className="skills__level">Intermediate</span>
             </div>
           </div>
-        </div>
-
-        <div className="skills__group">
           <div className="skills__data">
             <i class="bx bxl-react"></i>
             <div>

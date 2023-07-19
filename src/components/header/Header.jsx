@@ -2,6 +2,7 @@ import React from "react";
 import "./header.css";
 import { useState } from "react";
 
+
 const Header = () => {
   const [Toggle, setToggle] = useState(false);
   const [activeNav, setActiveNav] = useState("#home");
@@ -48,7 +49,7 @@ const Header = () => {
                     : "nav__link "
                 }
               >
-                <i className="uil uil-user nav__icon"></i>Qualification
+                <i className="uil uil-briefcase nav__icon"></i>Qualification
               </a>
             </li>
             <li className="nav__item">
