@@ -1,6 +1,7 @@
 import React from "react";
 import Frontend from "./Frontend";
 import Other from "./Other";
+import Blockchain from "./blockchain";
 import "./skills.css";
 
 const Skills = () => {
@@ -12,6 +13,7 @@ const Skills = () => {
       <div className="skills__container container grid">
         <Frontend />
         <Other />
+        <Blockchain />
       </div>
     </section>
   );

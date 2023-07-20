@@ -1,17 +1,19 @@
 import React from "react";
+import Typing from "./Typing.jsx";
 
 const Data = () => {
   return (
     <div className="home__data">
       <h1 className="home__title">
-        Hemanth Akula
+        Hello I'm, <br />
+        Ramdas Konala
         <svg
           width="36"
           height="36"
           viewBox="0 0 48 48"
           fill="none"
           xmlns="http://www.w3.org/2000/svg"
-          class="home__hand"
+          class="home__hand rotate-[45deg]"
         >
           <path
             d="M25.4995 32.0305L31.3495 33.1555L36.1495 8.48051C36.4495 6.83051 35.3995 5.18051 33.8245 4.88051C32.1745 4.58051 30.5995 5.70551 30.2995 7.35551L25.4995 32.0305Z"
@@ -55,7 +57,8 @@ const Data = () => {
           ></path>
         </svg>
       </h1>
-      <h3 className="home__subtitle">MERN Stack Developer</h3>
+      {/* <h3 className="home__subtitle">MERN Stack Developer</h3> */}
+      <Typing className='text-light' />
       <p className="home__description">
         Computer Science and Engineering final Year Undergrad, NIT SILCHAR.
       </p>

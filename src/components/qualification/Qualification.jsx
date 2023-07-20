@@ -54,6 +54,9 @@ const Qualification = () => {
                 <span className="qualification__subtitle">
                   National Institute of Technology, Silchar
                 </span>
+                <span>
+                  CGPA:9.09
+                </span>
                 <div className="qualification__calander">
                   <i className="uil uil-calendar-alt"></i> 2020 - Present
                 </div>
@@ -73,24 +76,30 @@ const Qualification = () => {
                 <span className="qualification__line"></span>
               </div>
               <div>
-                <h3 className="qualification__title">12th (BIEAP)</h3>
+                <h3 className="qualification__title">Intermediate</h3>
                 <span className="qualification__subtitle">
-                  Sasi Junior College, Velivennu
+                  Tirumala Junior College, Rajahmundry
+                </span>
+                <span>
+                  Percentage:98.2
                 </span>
                 <div className="qualification__calander">
-                  <i className="uil uil-calendar-alt"></i> 2018 - 2019
+                  <i className="uil uil-calendar-alt"></i> 2018 - 20
                 </div>
               </div>
             </div>
 
             <div className="qualification__data">
               <div>
-                <h3 className="qualification__title">10th CBSE</h3>
+                <h3 className="qualification__title">Matriculation</h3>
                 <span className="qualification__subtitle">
-                  Sasi EM School, Nallajarla
+                  Madhuri Vidhyalaya School, Gollaprolu
+                </span>
+                <span>
+                  CGPA:10
                 </span>
                 <div className="qualification__calander">
-                  <i className="uil uil-calendar-alt"></i> 2016 - 2017
+                  <i className="uil uil-calendar-alt"></i> 2017 - 2018
                 </div>
               </div>
 
@@ -110,7 +119,7 @@ const Qualification = () => {
             <div className="qualification__data">
               <div>
                 <h3 className="qualification__title">
-                  Research Intern
+                  Blockchain Development Internship
                 </h3>
                 <span className="qualification__subtitle">NIT SILCHAR</span>
                 <div className="qualification__calander">
@@ -122,7 +131,7 @@ const Qualification = () => {
                 <span className="qualification__line"></span>
               </div>
             </div>
-            <div className="qualification__data">
+            {/* <div className="qualification__data">
               <div></div>
 
               <div>
@@ -138,7 +147,7 @@ const Qualification = () => {
                   <i className="uil uil-calendar-alt"></i> july 2023 - present
                 </div>
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>

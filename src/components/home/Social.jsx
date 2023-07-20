@@ -7,21 +7,21 @@ const Social = () => {
   return (
     <div className="home__social">
       <a
-        href="https://www.linkedin.com/in/hemanth-akula-902216221/"
+        href="https://www.linkedin.com/in/ram-das-konala-94142020b/"
         className="home__social-icon"
         target="_blank"
       >
         <AiFillLinkedin />
       </a>
       <a
-        href="https://github.com/hemanth307"
+        href="https://github.com/Ramdaskonala"
         className="home__social-icon"
         target="_blank"
       >
         <AiOutlineGithub />
       </a>
       <a
-        href="https://codeforces.com/profile/Beast_307"
+        href="https://codeforces.com/profile/Whizz_Kid"
         className="home__social-icon"
         target="_blank"
       >

@@ -16,8 +16,7 @@ const About = () => {
         <div className="about__data">
           <Info />
           <p className="about__description">
-            A MERN Stack Developer based in Silchar, India. As a diligent, approachable and empathetic person, passionate about my work and learning new things and excited to
-            prove my technical and problem-solving skills for my self-growth as well as for the growth of the community. <br></br>
+          I am Konala Venkata Ramadasu, a versatile professional with expertise in frontend web development, competitive programming, and blockchain development, pursuing a Bachelor of Technology in CSE at NIT Silchar, I excel in data structures and algorithms, create visually appealing interfaces, and build secure applications using smart contracts and blockchain protocols. With a strong commitment to continuous learning and problem-solving, I am prepared to make a significant impact in the tech industry. <br></br>
             <br></br>
           </p>
 
