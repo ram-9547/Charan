@@ -20,8 +20,8 @@ const About = () => {
             <br></br>
           </p>
 
-          <a href={CV} download="" className="button button--flex">
-            Download CV
+          <a href={CV} target="_blank" className="button button--flex">
+            My Resume
             <svg
               className="button__icon"
               xmlns="http://www.w3.org/2000/svg"
