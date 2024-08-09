@@ -16,7 +16,9 @@ const About = () => {
         <div className="about__data">
           <Info />
           <p className="about__description">
-          I am Konala Venkata Ramadasu, a versatile professional with expertise in frontend web development, competitive programming, and blockchain development, pursuing a Bachelor of Technology in CSE at NIT Silchar, I excel in data structures and algorithms, create visually appealing interfaces, and build secure applications using smart contracts and blockchain protocols. With a strong commitment to continuous learning and problem-solving, I am prepared to make a significant impact in the tech industry. <br></br>
+          I am Charan Mohan Gowrneni, a versatile professional with expertise in frontend web development, competitive programming. As an graduate student, I am committed to expanding my knowledge of modern technology and acquiring the necessary
+          skills to become a valuable asset to any esteemed organization. I am eager to continue my education and build a strong
+          foundation in this field.<br></br>
             <br></br>
           </p>
 

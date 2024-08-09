@@ -7,14 +7,14 @@ const Social = () => {
   return (
     <div className="home__social">
       <a
-        href="https://www.linkedin.com/in/ram-das-konala-94142020b/"
+        href="https://www.linkedin.com/in/charan-mohan-77891620a/"
         className="home__social-icon"
         target="_blank"
       >
         <AiFillLinkedin />
       </a>
       <a
-        href="https://github.com/Ramdaskonala"
+        href="https://github.com/charanmohan19"
         className="home__social-icon"
         target="_blank"
       >

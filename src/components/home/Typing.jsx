@@ -6,7 +6,7 @@ export default function TypingEffect() {
         <div>
             <Typewriter
                 options={{
-                    strings: ["Frontend Developer","Competetive Programmer", "Blockchain Developer"],
+                    strings: ["Frontend Developer","Competetive Programmer"],
                     autoStart: true,
                     pauseFor: 1500,
                     loop: true,

@@ -6,7 +6,7 @@ const Data = () => {
     <div className="home__data">
       <h1 className="home__title">
         Hello, I'm <br />
-        Ramdas Konala
+        Charan Mohan Gowrneni
         {/* <svg
           width="36"
           height="36"
@@ -60,7 +60,7 @@ const Data = () => {
       {/* <h3 className="home__subtitle">MERN Stack Developer</h3> */}
       <Typing className='text-light' />
       <p className="home__description">
-        Computer Science and Engineering final Year Undergrad, NIT SILCHAR.
+        Student at Cumberland University.
       </p>
 
       <a href="#contact" className="button button--flex">

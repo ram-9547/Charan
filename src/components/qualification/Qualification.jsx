@@ -50,15 +50,14 @@ const Qualification = () => {
           >
             <div className="qualification__data">
               <div>
-                <h3 className="qualification__title">B.Tech (CSE)</h3>
+                <h3 className="qualification__title">Master Science</h3>
                 <span className="qualification__subtitle">
-                  National Institute of Technology, Silchar
+                  Cumberland University
                 </span>
                 <span>
-                  CGPA:9.09
                 </span>
                 <div className="qualification__calander">
-                  <i className="uil uil-calendar-alt"></i> 2020 - Present
+                  <i className="uil uil-calendar-alt"></i> August 2023 - Present
                 </div>
               </div>
 
@@ -76,30 +75,30 @@ const Qualification = () => {
                 <span className="qualification__line"></span>
               </div>
               <div>
-                <h3 className="qualification__title">Intermediate</h3>
+                <h3 className="qualification__title">B. Tech (ECE)</h3>
                 <span className="qualification__subtitle">
-                  Tirumala Junior College, Rajahmundry
+                  KL University, Vijayawada, Andhra Pradesh
                 </span>
                 <span>
-                  Percentage:98.2
+                  CGPA: 7.5
                 </span>
                 <div className="qualification__calander">
-                  <i className="uil uil-calendar-alt"></i> 2018 - 20
+                  <i className="uil uil-calendar-alt"></i> July 2019 - March 2023
                 </div>
               </div>
             </div>
 
             <div className="qualification__data">
               <div>
-                <h3 className="qualification__title">Matriculation</h3>
+                <h3 className="qualification__title">Intermediate (MPC)</h3>
                 <span className="qualification__subtitle">
-                  Madhuri Vidhyalaya School, Gollaprolu
+                Narayana Junior College
                 </span>
                 <span>
-                  CGPA:10
+                  CGPA:9.3
                 </span>
                 <div className="qualification__calander">
-                  <i className="uil uil-calendar-alt"></i> 2017 - 2018
+                  <i className="uil uil-calendar-alt"></i> 2017 - 2019
                 </div>
               </div>
 
@@ -119,11 +118,11 @@ const Qualification = () => {
             <div className="qualification__data">
               <div>
                 <h3 className="qualification__title">
-                  Blockchain Development Internship
+                Team Lead, Manbrosys, Internship
                 </h3>
-                <span className="qualification__subtitle">NIT SILCHAR</span>
+                <span className="qualification__subtitle">Manbrosys</span>
                 <div className="qualification__calander">
-                  <i className="uil uil-calendar-alt"></i> june 2023 - july 2023
+                  <i className="uil uil-calendar-alt"></i> DECEMBER 2023 - MARCH 2023
                 </div>
               </div>
               <div>
